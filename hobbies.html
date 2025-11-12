@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>A Creepy Story</title>
+
+    <style>
+        body.dark {
+
+            color: white;
+
+            background: red;
+
+        }
+
+        button {
+
+            display: block;
+
+            margin: 5px;
+
+        }
+
+        .textEntry {
+
+            margin-top: 12px;
+
+            margin-bottom: 15px;
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+<h1>My Hobbies</h1>
+<p id="story">I want to find my friend,and he was hiding inside the basement</p>
+<button onclick='goDark()'>Get in the mood</button>
+<div class="textEntry">Type your name here if you dare: <input type="text" id="name"> </div>
+<button onclick="typeAndScream()">Coding</button>
+<button onclick="finishTheStory()">Football</button>
+<button onclick="ronaldoGOAT()">Ronaldo is the greatest of all time unsaully messi is nowhere close is trash and can only talk ronaldo will win the world cup next</button>
+<script>
+    function goDark(){
+        document.body.className="dark"
+
+    }
+    function typeAndScream() {
+      let personName=document.getElementById("name").value 
+      alert("Its the best sports in the world"+ personName)
+    }
+    function finishTheStory() {
+     document.getElementById("story").innerHTML="Ronaldo is the GOAT of football"
+    }
+    function ronaldoGOAT(){
+        alert("Cristiano Ronaldo isn’t just a footballer, he’s a mindset. He shows the world that talent is nothing without hard work. From training longer than everyone else to stepping up in the biggest moments, he proves that greatness is earned. His speed, power, and confidence make him unstoppable, but it’s his discipline and hunger to improve every single day that makes him legendary. Ronaldo inspires millions to believe in themselves and never settle. Siiuu!")
+    }
+   
+</script>
+
+</html>
