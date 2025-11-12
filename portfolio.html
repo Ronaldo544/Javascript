@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Landing Page</title>
+
+    <style>
+        body {
+
+text-align: center;
+
+}
+
+nav {
+
+#ебебеб; background-color:
+
+padding: 10px;
+
+}
+
+ul {
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+overflow: hidden;
+
+}
+
+li {
+
+float: left;
+
+}
+
+li a {
+
+display: block; li a:hover {
+
+background-color: rgb(219, 130, 130);
+
+}
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="6-about.html">6-about</a> </li>
+            <li><a href="7-contact.html">Contact</a> </li>
+        </ul>
+    </nav>
+    <h2>Interesting Information</h2>
+    <img src="tiger.jpg"/>
+    <br />
+    <button onclick="tiger()">Read more</button> 
+    <p id="tiger-info"></p>
+    <img src="lion.jpg" />
+    <br />
+    <button onclick="lion()">Read More</button>
+
+    <p id="lion-info"></p>
+
+    <script>
+        function tiger() {
+            document.getElementById("tiger-info").innerHTML=
+            "The tiger {Panthera tigris} is the largest extent cat species"
+        }
+        function lion() {
+                document.getElementById("-info").innerHTML =
+                    "The Lion {Panthera leo} is the largest extent cat species"
+            }
+    </script>
+</body>
+
+</html>
